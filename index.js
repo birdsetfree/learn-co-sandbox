@@ -1,5 +1,5 @@
 const letters = ["alpha", "gamma", "delta"]
 
-[...letters.slice(0, 1), 'beta', ...letters.slice(1)]
+letters.splice(1, 0, 'beta')
 
 console.log(letters)
