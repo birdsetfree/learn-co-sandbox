@@ -1,9 +1,4 @@
-function sayHelloTo(firstName) {
-  console.log(`Hello, ${firstName}!`)
-  return '${firstName}'
-}
+const oneTwoThree = [1, 2, 3]
+const sevenEightNine = [7, 8, 9]
  
-sayHelloTo('Isabel') // "Hello, Isabel!"
-sayHelloTo("Jane") // "Hello, Jane!"
-sayHelloTo("R2-D2") // "Hello, R2-D2!"
-sayHelloTo(1) // "Hello, 1!"
+[4, 5, 6, ...oneTwoThree, ...sevenEightNine]
