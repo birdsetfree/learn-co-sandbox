@@ -1,4 +1,5 @@
-const oneTwoThree = [1, 2, 3]
-const sevenEightNine = [7, 8, 9]
- 
-[4, 5, 6, ...oneTwoThree, ...sevenEightNine]
+const letters = ["alpha", "gamma", "delta"]
+
+letters.splice(1, 0, 'beta')
+
+console.log(letters)
